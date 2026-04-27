@@ -1,6 +1,7 @@
 # ESP32 Wi-Fi Connect - Công cụ cấu hình Wifi cho esp32
 
 This component helps with Wi-Fi connection for the device.
+<p/>
 Thành phần này giúp thiết lập kết nối Wifi cho thiết bị
 
 It first tries to connect to a Wi-Fi network using the credentials stored in the flash. If this fails, it starts an access point and a web server to allow the user to connect to a Wi-Fi network.
