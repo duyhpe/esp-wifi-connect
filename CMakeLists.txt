@@ -1,8 +1,8 @@
-message("78/esp_wifi_connect: IDF_VER is ${IDF_VER}")
+message("duyhpe/esp_wifi_connect: IDF_VER is ${IDF_VER}")
 
 if(${IDF_VER} STRGREATER_EQUAL "v6.0")
     # v6
-    message("78/esp_wifi_connect: idf_component_register for v6 used")
+    message("duyphe/esp_wifi_connect: sử dụng idf_component_register phiên bản 6.x")
 
     idf_component_register(
         SRCS
@@ -20,7 +20,7 @@ if(${IDF_VER} STRGREATER_EQUAL "v6.0")
     )
 else()
     # v5
-    message("78/esp_wifi_connect: idf_component_register for v5 used")
+    message("duyhpe/esp_wifi_connect: sử dụng idf_component_register phiên bản 5.x")
 
     idf_component_register(
         SRCS
