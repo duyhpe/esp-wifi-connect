@@ -133,3 +133,6 @@ if (ssid_list.empty()) {
 ```
 
 Please check https://github.com/78/xiaozhi-esp32 for more usage.
+<p/>
+Vui lòng xem thêm hướng dẫn sử dụng tại: https://github.com/78/xiaozhi-esp32
+
